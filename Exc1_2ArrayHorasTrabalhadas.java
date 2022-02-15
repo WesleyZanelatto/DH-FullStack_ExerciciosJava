@@ -16,18 +16,31 @@ public class Exc1_2ArrayHorasTrabalhadas {
 		Scanner ler = new Scanner(System.in);
 		
 		int[] C = new int[5];// Variavel "C" Código do Colaborador
-		int x,k=0;
+		int x,k=0,continuaSair=1;
 		float[] N = new float[5];// Variável "N" Numero de horas trabalhadas
 		float[] E = new float[5];// Variável "E" Excesso de pagamento
 		
 		
 		for(x=0;x<5;x++)
 		{
+			if(continuaSair==1)
+			{
 	    System.out.println("\nDigite o código do colaborador: ");
 		C[x] = ler.nextInt();
 		System.out.println("\nDigite o número de horas trabalhadas: ");
 		N[x] = ler.nextFloat();
-						
+		
+		System.out.println("\nDigite:\n1-Para continuar\n2-Para sair");
+		continuaSair=ler.nextInt();
+			}
+			else
+				break;
+		}
+		
+		k=x;
+		
+		for(x=0;x<k;x++)
+		{
 	    if(N[x]>50)
 		{
 			E[x] = N[x]-50;
@@ -43,11 +56,8 @@ public class Exc1_2ArrayHorasTrabalhadas {
 			System.out.printf("\nCódigo do Colaborador: %d \nSalário total: %.2f",C[x],N[x]*10);
 			System.out.println("\n----------------------------------------------------------------");
 		}
-	    
-	       	    
 		}
-		
-		
+	      		
 	}
 
 }
