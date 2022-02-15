@@ -52,7 +52,7 @@ public class Exc2_4CaracteristicasPsicologicas {
 		//Continuar a pesquisa Sim/Não ou se fica ou sai do Loop while
 		if(z<150) 
 		{System.out.println("\nVocê deseja continua  a pesquisa: S/N ");
-		continua = ler.next().toUpperCase().charAt(0); // lê um caracter e o transforma para maiusculo
+		continua = ler.next().toUpperCase().charAt(0); // lê um caracter e o transforma para maiuscula
 		}
 						
 		}
