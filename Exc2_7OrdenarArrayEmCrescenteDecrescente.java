@@ -11,6 +11,7 @@ public class Exc2_7OrdenarArrayEmCrescenteDecrescente {
 		
 		// Ordenar Crescente e decrescente
 		
+		
 		int[] vet= new int[6];
 		int i,j,aux,op;
 		char continuar='S';
@@ -55,9 +56,11 @@ public class Exc2_7OrdenarArrayEmCrescenteDecrescente {
 				
 				System.out.println("\n\n\t!!!Números ordenados com sucesso!!!");
 				
+				
 				System.out.println("\nDeseja executar mais uma vez: S/N");
 				continuar = ler.next().toUpperCase().charAt(0);
 				
+								
 				break;
 			}
 			
