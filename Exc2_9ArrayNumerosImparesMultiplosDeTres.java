@@ -6,12 +6,12 @@ public class Exc2_9ArrayNumerosImparesMultiplosDeTres {
 		// TODO Auto-generated method stub
 
 		/*PARA (For)
-		 * Desenvolver um sistema que efetue a soma de todos os números ímpares que são múltiplos de três
-		 * e que se encontram no conjunto dos números de 1 até 500.
+		 * Desenvolver um sistema que efetue a soma de todos os nÃºmeros Ã­mpares que sÃ£o mÃºltiplos de trÃªs
+		 * e que se encontram no conjunto dos nÃºmeros de 1 atÃ© 500.
 		 */
 		int i,soma=0;
 		
-		for(i=0;i<=500;i++)
+		for(i=0;i<500;i++)
 		{
 			if(i%2!=0 && i%3==0)
 			{
