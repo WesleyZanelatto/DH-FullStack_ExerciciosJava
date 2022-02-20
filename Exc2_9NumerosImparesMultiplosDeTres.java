@@ -1,6 +1,6 @@
 package exercicios;
 
-public class Exc2_9ArrayNumerosImparesMultiplosDeTres {
+public class Exc2_9NumerosImparesMultiplosDeTres {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
