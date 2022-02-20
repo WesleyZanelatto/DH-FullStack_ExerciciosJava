@@ -23,8 +23,11 @@ public class Exc2_6ReceberVariosNumerosMediaMultiploDeTres {
 			System.out.println("Digite o "+x+"º valor: ");
 			n=ler.nextInt();
 			
-			 mult+= n*3;
+			if(n%3==0)
+			{
+			 mult+= n;
 			 media= mult/(x);
+			}
 		}
 		while(n!=0);
 		
