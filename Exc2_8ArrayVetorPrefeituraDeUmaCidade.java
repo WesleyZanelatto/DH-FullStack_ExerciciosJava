@@ -18,9 +18,9 @@ public class Exc2_8ArrayVetorPrefeituraDeUmaCidade {
 		
 		Scanner ler = new Scanner(System.in);
 		
-		float[] salario = new float[11]; //21 posiçãoes que resultara em 20 resultados
+		float[] salario = new float[21]; //21 posiçãoes que resultara em 20 resultados
 		float somaSalarios=0,mediaSalario=0,salarioMenor100=0,percentualSalarioMenor100=0,aux,mediaNumFilhos=0,somaNumFilhos=0;
-		int[] numFilhos = new int[11];//21 posiçãoes que resultara em 20 resultados
+		int[] numFilhos = new int[21];//21 posiçãoes que resultara em 20 resultados
 		int i,j;
 				
 		System.out.println("\n*****Pesquisa da Prefeitura de uma cidade*****");
