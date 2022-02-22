@@ -8,7 +8,7 @@ public class Exc3_4DiagonalPrincipal {
 		// TODO Auto-generated method stub
 
 		/*
-		 * Crie um programa que receba valores do usu·rio para preencher uma matriz 3X3, e
+		 * Crie um programa que receba valores do usu√°rio para preencher uma matriz 3X3, e
 		 * em seguida, exiba a soma dos valores dela e a soma dos valores da primeira diagonal,
 		 * ou seja, diagonal principal.
 		 */
@@ -21,16 +21,16 @@ public class Exc3_4DiagonalPrincipal {
 		//Imprimir na tela
 		System.out.println("\n****Digite 9 valores ****\n");
 		
-		//01-CaptaÁ„o de dados
+		//01-Capta√ß√£o de dados
 		for(linha=0;linha<3;linha++)
 		{
 			for(coluna=0;coluna<3;coluna++)
 			{
-				System.out.printf("Digite o %d∫ valor: ",cont);
+				System.out.printf("Digite o %d¬∫ valor: ",cont);
 				matriz[linha][coluna] = ler.nextInt();
 				cont++;
 			}
-		}//01-Fecha captaÁ„o de dados
+		}//01-Fecha capta√ß√£o de dados
 		
 		//Imprimir divisor de tela
 		System.out.println("***************************************");
@@ -46,9 +46,9 @@ public class Exc3_4DiagonalPrincipal {
 				if(linha==coluna)
 				{
 					somaDiagonal += matriz[linha][coluna]; 
-				}
+				}//Fecha soma da diagonal principal
 				
-				//Imprimir as linhas e colunas e os seus valores
+				//Imprimir as linhas e colunas com seus respectivos valores
 				System.out.println("Linha "+linha+" e Coluna "+coluna+" da matriz = "+matriz[linha][coluna]);
 			}
 		}//02-Fecha a soma da matriz e diagonal principal
@@ -56,7 +56,7 @@ public class Exc3_4DiagonalPrincipal {
 		//Imprimir divisor de tela
 		System.out.println("***************************************");
 		
-		//Imprimir valores da matriz
+		//Imprimir a soma dos valores da matriz
 		System.out.println("\nSoma dos valores da matriz = "+somaMatriz);
 		
 		//Imprimir diagonal principal
